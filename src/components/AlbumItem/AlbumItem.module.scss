@@ -1,0 +1,29 @@
+.albumContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 305px;
+    background: #c9e5f5;
+    color: #202b44;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin: 20px;
+    box-sizing: border-box;
+    min-height: 60px;
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 1.2em;
+
+    &:hover {
+        box-shadow: 0 2px 24px 0 rgba(255, 255, 255, 0.8);
+        transition: opacity 500ms;
+        background: #1b1f35;
+        color: #d6b0b0;
+        font-weight: bold;
+    }
+
+    .recipeImg {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,18 @@
+.albumPhotosWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    .photosWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

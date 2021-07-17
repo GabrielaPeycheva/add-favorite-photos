@@ -1,0 +1,40 @@
+.photoItemWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #c9e5f5;
+    color: #000;
+    width: 300px;
+    border-radius: 10px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    word-break: break-word;
+
+    .styledButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.9em 3em;
+        border: 0.16em solid #6b941b;
+        margin: 10px;
+        box-sizing: border-box;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 10px;
+        color: #6b941b;
+        background: transparent;
+        cursor: pointer;
+
+        &.added {
+            padding: 0.7em 3em;
+            background: #6b941b;
+            color: #FFF;
+            border: 0.16em solid #FFF;
+        }
+    }
+}

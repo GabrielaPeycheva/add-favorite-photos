@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
+  <defs>
+      <style>
+        .icon-check-path {
+          fill: #FFF;
+          fill-rule: evenodd;
+        }
+      </style>
+  </defs>
+  <path class="icon-check-path" d="M3.356,5.53L4.983,8.765S7.627,2.191,11.8,0c-0.1,1.565-.508,2.922.2,4.591C10.169,5.009,6.407,9.7,5.186,12A14.165,14.165,0,0,0,0,7.617Z"/>
+</svg>
